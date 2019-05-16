@@ -1,0 +1,95 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Liên Hệ</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="CSS/Template.css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div>
+			<header>
+				<img  name="image" src="Images/anhdautrang-1.jpg" alt="">  
+                
+				<script type="text/javascript">
+                  window.onload = function(){
+                    setTimeout("switch_Image()", 3000);
+                  }
+                  var current = 1;
+                  var num_image = 4;
+                  function switch_Image(){
+                      current++;
+                      document.images['image'].src ='Images/anhdautrang-' + current + '.jpg';
+                     if(current < num_image){
+                       setTimeout("switch_Image()", 3000);
+                     }else if(current == num_image){
+                       current = 0;
+                       setTimeout("switch_Image()", 3000);
+                     }
+                 }
+                </script>
+       
+        	</header>
+            <nav>
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="NhaHang.html">Nhà Hàng</a></li>
+                    <li><a href="GioiThieu.html">Giới Thiệu</a></li>
+                    <li><a href="khuyenMai.html">Xem Khuyến Mãi</a></li>
+                    <li><a href="CamNang.html">Cẩm Nang Du Lịch</a></li>
+                    <li><a href="TinTuc.html">Tin Tức</a></li>
+                    <li><a href="LienHe.html">Liên Hệ</a></li>
+                             
+                </ul>
+                <div class="logo">
+                	<img src="Images/logo.jpg">
+                </div>
+            </nav>
+           
+            <article>
+    
+                <section>
+                    <!-- InstanceBeginEditable name="noidung" -->
+                
+                <div id="body">
+                    	<div>
+                        	<br>
+                        	<a href="#" class="thongtin">LIÊN HỆ</a>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="giatien">
+                            		THÔNG TIN CÔNG TY<br>
+                                    CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI DỊCH VỤ KHÁCH SẠN HOÀNG YẾN<br>
+                                    Đ/C: 11/16 Đại Lộ Bình Dương, KP. Đông, P. Vĩnh Phú, TX. Thuận An, Bình Dương<br>
+                                    Hotline: 0274 378 6218 - 0274 378 6243<br>
+                                    Email : hoangyen@hoangyenhotel.com<br>
+                            </p>
+                        	<div class="vitrianh"></div>
+                            <br>
+                            <div class="vitrianh">
+                                <img class="img" src="Images/Bando.png">
+                            </div>
+                        </div>
+                
+				<!-- InstanceEndEditable -->
+                </section>
+            </article>
+            <footer>
+                <div class="hotline">
+                     <img class="img" src="Images/hotline.gif">
+                </div>
+                <br>
+                <div class="chan">
+                	<marquee onMouseOut="start()" onMouseOver="stop()" scrollamount="10" scrolldelay="100" direction="left">
+                      <img class="img" src="Images/backgroundchan.jpg">
+                    </marquee>
+                </div>   	
+            </footer>
+    </div>
+</body>
+<!-- InstanceEnd --></html>

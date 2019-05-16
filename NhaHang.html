@@ -1,0 +1,120 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Nhà Hàng</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" type="text/css" href="CSS/Template.css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div>
+			<header>
+				<img  name="image" src="Images/anhdautrang-1.jpg" alt="">  
+                
+				<script type="text/javascript">
+                  window.onload = function(){
+                    setTimeout("switch_Image()", 3000);
+                  }
+                  var current = 1;
+                  var num_image = 4;
+                  function switch_Image(){
+                      current++;
+                      document.images['image'].src ='Images/anhdautrang-' + current + '.jpg';
+                     if(current < num_image){
+                       setTimeout("switch_Image()", 3000);
+                     }else if(current == num_image){
+                       current = 0;
+                       setTimeout("switch_Image()", 3000);
+                     }
+                 }
+                </script>
+       
+        	</header>
+            <nav>
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="NhaHang.html">Nhà Hàng</a></li>
+                    <li><a href="GioiThieu.html">Giới Thiệu</a></li>
+                    <li><a href="khuyenMai.html">Xem Khuyến Mãi</a></li>
+                    <li><a href="CamNang.html">Cẩm Nang Du Lịch</a></li>
+                    <li><a href="TinTuc.html">Tin Tức</a></li>
+                    <li><a href="LienHe.html">Liên Hệ</a></li>
+                             
+                </ul>
+                <div class="logo">
+                	<img src="Images/logo.jpg">
+                </div>
+            </nav>
+           
+            <article>
+    
+                <section>
+                    <!-- InstanceBeginEditable name="noidung" -->
+                
+                <div id="body">
+                    	<div>
+                        	<br>
+                        	<a href="#" class="thongtin">RESTAURANT</a>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="giatien">
+                            	Nhà hàng New Wave tọa lạc tại vị trí đắc địa trên “Con Đường Vàng” Thùy vân, nằm trong Khu vực Bãi sau và khách sạn 4 sao New wave Vũng tàu. Với phong cách thiết kế hiện đại nhìn ra biển cùng một không gian ấm cúng và trang trọng, nhà hàng New Wave là sự lựa chọn lý tưởng cho những thực khách yêu hải sản.<br>
+                                Đến với New Wave, Quý khách sẽ ngạc nhiên bởi sự đa dạng của các món ăn được chế biến từ những nguyên liệu tươi ngon nhất tại Vũng tàu như: Tôm hùm, Tôm tích, Cá mú, Cua, Mực,… cũng như các loại hải sản nổi tiếng khác.<br>
+                            </p>
+                        	<div class="vitrianh"></div>
+                            <br>
+                            <div class="vitrianh">
+                                <img class="img" src="Images/Nha hang/1.jpg">
+                            </div>
+                            <br>
+                            <p class="giatien">
+                            	Nhà hàng Hoàng Yến quy tụ những món ăn từ dân dã đến thượng hạng nhằm phục vụ tất cả các du khách.	
+                            </p>
+                            <br>
+                            <div class="vitrianh">
+                                <img class="img" src="Images/Nha hang/2.jpg">
+                            </div>
+                            <br>
+                            <a href="#" class="thongtin">Quý khách có thể thưởng thức bữa tiệc hồ bơi với những phong cách đặc sắc.</a>
+                            <br>
+                            <p class="giatien">
+                            	Không chỉ đáp ứng nhu cầu lưu trú,  KHÁCH SẠN HOÀNG YẾN còn phục vụ nhu cầu NGHỈ DƯỠNG là một khu phức hợp bao gồm : Tiệc bể bơi và các họt động ngoài trời nhằm đáp ứng nhu cầu của khách hàng.
+                            </p>
+                            <br>
+                            <div class="vitrianh">
+                                <img class="img" src="Images/Nha hang/4.jpg">
+                            </div>
+                            <br>
+                            <a href="#" class="thongtin">Quý khách có thể thưởng bãi biển quyến rủ cùng người thân và gia đình.</a>
+                            <br>
+                            <p class="giatien">
+                            	KHÁCH SẠN HOÀNG YẾN hy vọng đem đến cho bạn một kỳ nghỉ vui vẻ bên gia đình và người thân , hòa mình với thiên nhiên , có thể vui đùa ở 1 bãi biển hoang sơ đầy quyến rủ
+                            </p>
+                            <br>
+                            <div class="vitrianh">
+                              <img class="img" src="Images/Nha hang/8.jpg">
+                            </div>
+                        </div>
+                
+				<!-- InstanceEndEditable -->
+                </section>
+            </article>
+            <footer>
+                <div class="hotline">
+                     <img class="img" src="Images/hotline.gif">
+                </div>
+                <br>
+                <div class="chan">
+                	<marquee onMouseOut="start()" onMouseOver="stop()" scrollamount="10" scrolldelay="100" direction="left">
+                      <img class="img" src="Images/backgroundchan.jpg">
+                    </marquee>
+                </div>   	
+            </footer>
+    </div>
+</body>
+<!-- InstanceEnd --></html>
